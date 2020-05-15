@@ -26,6 +26,15 @@ To run in detached mode, execute this command:
 $ docker-compose up -d
 ```
 
+To run in detached mode of the docker-compose-official, execute this command:
+
+```
+$ docker-compose -f docker-compose-official.yml up -d
+```
+
+then browse: localhost:8013
+
+
 # Custom addons
 
 The **addons** folder contains custom addons. Just put your custom addons if you have any.
@@ -37,7 +46,7 @@ To change Odoo configuration, edit file: **etc/odoo.conf**.
 # docker-compose.yml
 
 * odoo:13.0
-* postgres:12
+* postgres:10
 
 # Odoo 13 screenshots
 
